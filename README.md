@@ -21,14 +21,14 @@ pip install numpy matplotlib opencv-python
 
 ### Одиночное изображение без и с отображением промежуточных результатов
 ```bash
-python main.py путь/к/изображению.jpg
-python main.py путь/к/изображению.jpg --show
+python calc_height.py путь/к/изображению.jpg
+python calc_height.py путь/к/изображению.jpg --show
 ```
 
 ### Пакетная обработка директории без и с отображением промежуточных результатов
 ```bash
-python main.py --batch путь/к/директории
-python main.py --batch путь/к/директории --show
+python calc_height.py --batch путь/к/директории
+python calc_height.py --batch путь/к/директории --show
 ```
 
 ## Примеры вывода
